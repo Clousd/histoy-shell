@@ -1,3 +1,7 @@
-#!/bin/bash
-msyql -h data.zhaoits.com -u root -pi
-echo "123"
+#!/usr/bin/env bash
+# mysql commti
+#mysql path
+$host = ""
+$user = ""
+$password = ""
+mysql -h $host -u $user -p$password
