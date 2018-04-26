@@ -3,7 +3,7 @@
 #mysql path
 host="amazom.cxq7foc1svrl.ap-northeast-1.rds.amazonaws.com"
 user="amaroot"
-password="amazon.18"
+password=""
 mysql -h $host -u $user -p$password <<EOF
 show databases;
 use mysql;
