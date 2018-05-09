@@ -1,0 +1,4 @@
+xtrabackup
+yum install http://www.percona.com/downloads/percona-release/redhat/0.1-4/percona-release-0.1-4.noarch.rpm
+qpress
+http://www.quicklz.com/qpress-11-linux-x64.tar
