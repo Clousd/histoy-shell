@@ -12,18 +12,12 @@ echo 3.mysql58-community/x86_64(&)
 echo Please choose:
 read -n 1 M
 #下面一行是换行
-echo
-#echo M=$M
-if [ "$M" = "@" ]
-then
- echo 选项1
-elif [ "$M" = "#" ]
-then
- echo 选项2
-elif [ "$M" = "&" ]
-then
- echo 选项3
-else
- echo Error
-fi 
-==========
+read -p "Select an option [1-4]: " option
+		case $option in
+			1)
+   echo "select 1 "
+   ;;
+   2)
+   echo "select 2"
+   ;;
+   esac
