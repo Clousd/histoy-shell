@@ -12,6 +12,7 @@ echo "3.mysql58-community/x86_64(&)"
 echo Please choose:
 read -n 1 M
 #下面一行是换行
+<<<<<<< HEAD
 echo
 echo M=$M
 if [ "$M" = "@" ]
@@ -26,3 +27,14 @@ then
 else
  echo Error
 fi 
+=======
+read -p "Select an option [1-4]: " option
+		case $option in
+			1)
+   echo "select 1 "
+   ;;
+   2)
+   echo "select 2"
+   ;;
+   esac
+>>>>>>> a035836cb422a54d906e27279de731141476027f
