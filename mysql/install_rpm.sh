@@ -10,7 +10,6 @@ echo "2.mysql56-community/x86_64(#)"
 echo "3.mysql57-community/x86_64(&)"
 echo "3.mysql58-community/x86_64(&)"
 echo Please choose:
-read -n 1 M
 #下面一行是换行
 read -p "Select an option [1-4]: " option
 		case $option in
