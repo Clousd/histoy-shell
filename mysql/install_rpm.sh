@@ -12,11 +12,11 @@ echo "3.mysql58-community/x86_64(&)"
 echo Please choose:
 #下面一行是换行
 read -p "Select an option [1-4]: " option
-		case $option in
-			1)
-   echo "select 1 "
-   ;;
-   2)
-   echo "select 2"
-   ;;
-   esac
+	case $option in
+		1)
+   		echo "select 1 "
+  		;;
+   		2)
+  		 echo "select 2"
+   		;;
+   	esac
