@@ -28,6 +28,7 @@ else
 fi 
 =======
 read -p "Select an option [1-4]: " option
+<<<<<<< HEAD
 		case $option in
 			1)
    echo "select 1 "
@@ -37,3 +38,13 @@ read -p "Select an option [1-4]: " option
    ;;
    esac
 >>>>>>> a035836cb422a54d906e27279de731141476027f
+=======
+	case $option in
+		1)
+   		echo "select 1 "
+  		;;
+   		2)
+  		 echo "select 2"
+   		;;
+   	esac
+>>>>>>> 1d3b21661d31c052cb70f91bc20267b7105aa6c8
