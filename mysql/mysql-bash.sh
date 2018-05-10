@@ -1,6 +1,13 @@
 #!/usr/bin/env bash
 # mysql commti
-$host = ""
-$user = ""
-$password = ""
-mysql -h $host -u $user -p$password
+#mysql path
+host="amazom.cxq7foc1svrl.ap-northeast-1.rds.amazonaws.com"
+user="amaroot"
+password=""
+mysql -h $host -u $user -p$password <<EOF
+show databases;
+use mysql;
+show tables;
+select * from user
+EOF
+exit;
