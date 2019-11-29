@@ -9,17 +9,7 @@ select "\n\n\n";
 show databases;
 select "\n\n\n";
 use mysql;
-
-
-
-
-
-
-
 show tables;
-
-
-
 select * from user
 EOF
 exit;
