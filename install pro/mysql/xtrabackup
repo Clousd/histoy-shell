@@ -1,4 +1,4 @@
-xtrabackup
+#xtrabackup  mysql 备份工具
 yum install http://www.percona.com/downloads/percona-release/redhat/0.1-4/percona-release-0.1-4.noarch.rpm
 yum install percona-xtrabackup
 yum list | grep percona
