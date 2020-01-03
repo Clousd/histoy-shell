@@ -14,6 +14,9 @@ def fomartlist(info1):
     elif len(info2)==7:
         li = [info2[0],info2[1][1:],info2[3],info2[4],info2[5],info2[6]]+info1[3].split()+[info1[1],info1[2]]
         if len(li) == 10:
+            #print(li)
+            #if li[6]!=200:
+            #    print(li[6])
             return li
         else:
             Exception: print("数组长度不符合要求")
@@ -36,7 +39,8 @@ while 1==1 :
     it.append(fomartlist(line))
 headers = ['ip','time','url','type','file','protocol','code','byte','to','device']
 df = pd.DataFrame(it,columns=headers)
-
+df = df.infer_objects()
+print(df.dtypes)
    # print(fomartlist(line))
 
 #df.to_excel("test.xls")
